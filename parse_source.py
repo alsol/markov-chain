@@ -5,7 +5,6 @@
 
 import os
 import utils
-import random
 from datatypes.markov import MarkovModel
 
 
@@ -86,4 +85,3 @@ if __name__ == "__main__":
 
     new_sentence[0] = new_sentence[0].capitalize()
     print(' '.join(new_sentence) + '.')
-    # + ' ' + ('не меняли меня.' if bool(random.getrandbits(1)) else 'под суд.'))

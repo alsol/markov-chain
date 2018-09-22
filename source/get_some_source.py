@@ -36,7 +36,7 @@ if __name__ == "__main__":
     existing = os.listdir('.')
     print("%d files will be created" % len(set(links)))
     for link in sorted(set(links)):
-        filename = file_prefix + '_%d.tgit remote add origin https://github.com/alsol/markov-chain.gitxt' % counter
+        filename = file_prefix + '_%d.txt' % counter
 
         if filename not in existing:
             print("Getting info from ref: %s" % link)
